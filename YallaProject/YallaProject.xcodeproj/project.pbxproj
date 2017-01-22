@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4226C32F1E34ACA800556186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226C32E1E34ACA800556186 /* main.m */; };
+		4226C3321E34ACA800556186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226C3311E34ACA800556186 /* AppDelegate.m */; };
+		4226C3351E34ACA800556186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4226C3341E34ACA800556186 /* ViewController.m */; };
+		4226C3381E34ACA800556186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4226C3361E34ACA800556186 /* Main.storyboard */; };
+		4226C33A1E34ACA800556186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4226C3391E34ACA800556186 /* Assets.xcassets */; };
+		4226C33D1E34ACA800556186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4226C33B1E34ACA800556186 /* LaunchScreen.storyboard */; };
+		8AA95EB9247DA6AE77FF9E2B /* libPods-YallaProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F522521EAB1C9E37AB418F /* libPods-YallaProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05369DE70057222FCC72FDA6 /* Pods-YallaProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YallaProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-YallaProject/Pods-YallaProject.release.xcconfig"; sourceTree = "<group>"; };
+		0B1603C885C4B9B3B535EEE4 /* Pods-YallaProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YallaProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YallaProject/Pods-YallaProject.debug.xcconfig"; sourceTree = "<group>"; };
+		25F522521EAB1C9E37AB418F /* libPods-YallaProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YallaProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226C32A1E34ACA800556186 /* YallaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YallaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226C32E1E34ACA800556186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4226C3301E34ACA800556186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4226C3311E34ACA800556186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4226C3331E34ACA800556186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4226C3341E34ACA800556186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4226C3371E34ACA800556186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4226C3391E34ACA800556186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4226C33C1E34ACA800556186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4226C33E1E34ACA800556186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4226C3271E34ACA800556186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA95EB9247DA6AE77FF9E2B /* libPods-YallaProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4226C3211E34ACA800556186 = {
+			isa = PBXGroup;
+			children = (
+				4226C32C1E34ACA800556186 /* YallaProject */,
+				4226C32B1E34ACA800556186 /* Products */,
+				76D0CE9C3F7F86738582EA5D /* Pods */,
+				E4AFB73CE797A96590E0D454 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4226C32B1E34ACA800556186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4226C32A1E34ACA800556186 /* YallaProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4226C32C1E34ACA800556186 /* YallaProject */ = {
+			isa = PBXGroup;
+			children = (
+				4226C3301E34ACA800556186 /* AppDelegate.h */,
+				4226C3311E34ACA800556186 /* AppDelegate.m */,
+				4226C3331E34ACA800556186 /* ViewController.h */,
+				4226C3341E34ACA800556186 /* ViewController.m */,
+				4226C3361E34ACA800556186 /* Main.storyboard */,
+				4226C3391E34ACA800556186 /* Assets.xcassets */,
+				4226C33B1E34ACA800556186 /* LaunchScreen.storyboard */,
+				4226C33E1E34ACA800556186 /* Info.plist */,
+				4226C32D1E34ACA800556186 /* Supporting Files */,
+			);
+			path = YallaProject;
+			sourceTree = "<group>";
+		};
+		4226C32D1E34ACA800556186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4226C32E1E34ACA800556186 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76D0CE9C3F7F86738582EA5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B1603C885C4B9B3B535EEE4 /* Pods-YallaProject.debug.xcconfig */,
+				05369DE70057222FCC72FDA6 /* Pods-YallaProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4AFB73CE797A96590E0D454 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F522521EAB1C9E37AB418F /* libPods-YallaProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4226C3291E34ACA800556186 /* YallaProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4226C3411E34ACA800556186 /* Build configuration list for PBXNativeTarget "YallaProject" */;
+			buildPhases = (
+				374D994B16F48B3AEFF0E085 /* [CP] Check Pods Manifest.lock */,
+				4226C3261E34ACA800556186 /* Sources */,
+				4226C3271E34ACA800556186 /* Frameworks */,
+				4226C3281E34ACA800556186 /* Resources */,
+				1A887F7C7DD900DBB69C2248 /* [CP] Embed Pods Frameworks */,
+				74AE860FD196DA70BD0F7C16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YallaProject;
+			productName = YallaProject;
+			productReference = 4226C32A1E34ACA800556186 /* YallaProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4226C3221E34ACA800556186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yalla Developer";
+				TargetAttributes = {
+					4226C3291E34ACA800556186 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4226C3251E34ACA800556186 /* Build configuration list for PBXProject "YallaProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4226C3211E34ACA800556186;
+			productRefGroup = 4226C32B1E34ACA800556186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4226C3291E34ACA800556186 /* YallaProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4226C3281E34ACA800556186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226C33D1E34ACA800556186 /* LaunchScreen.storyboard in Resources */,
+				4226C33A1E34ACA800556186 /* Assets.xcassets in Resources */,
+				4226C3381E34ACA800556186 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A887F7C7DD900DBB69C2248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YallaProject/Pods-YallaProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		374D994B16F48B3AEFF0E085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74AE860FD196DA70BD0F7C16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YallaProject/Pods-YallaProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4226C3261E34ACA800556186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4226C3351E34ACA800556186 /* ViewController.m in Sources */,
+				4226C3321E34ACA800556186 /* AppDelegate.m in Sources */,
+				4226C32F1E34ACA800556186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4226C3361E34ACA800556186 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226C3371E34ACA800556186 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4226C33B1E34ACA800556186 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4226C33C1E34ACA800556186 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4226C33F1E34ACA800556186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4226C3401E34ACA800556186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4226C3421E34ACA800556186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1603C885C4B9B3B535EEE4 /* Pods-YallaProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YallaProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yalla.YallaProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4226C3431E34ACA800556186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05369DE70057222FCC72FDA6 /* Pods-YallaProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YallaProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yalla.YallaProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4226C3251E34ACA800556186 /* Build configuration list for PBXProject "YallaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226C33F1E34ACA800556186 /* Debug */,
+				4226C3401E34ACA800556186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4226C3411E34ACA800556186 /* Build configuration list for PBXNativeTarget "YallaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4226C3421E34ACA800556186 /* Debug */,
+				4226C3431E34ACA800556186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4226C3221E34ACA800556186 /* Project object */;
+}
