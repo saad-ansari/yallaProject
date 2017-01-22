@@ -1,10 +1,27 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '8.0'
 
 target 'YallaProject' do
-  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for YallaProject
-
+    pod 'AFNetworking', '~> 2.6.3'
+    pod 'LGRefreshView'
+    pod 'HACClusterMapViewController'
+    pod 'NJKWebViewProgress'
+    pod 'MHTextField'
+    pod 'ISMessages'
+    pod 'NZCircularImageView'
+    pod 'JTMaterialSwitch'
+    pod 'DLRadioButton'
+    pod 'OneSignal'
+    pod 'Sheriff'
+    pod 'DGActivityIndicatorView'
+    pod 'DZNSegmentedControl'
+    pod 'Vertigo'
+    pod 'MMCollapsibleLabel'
+    pod 'GTMNSStringHTMLAdditions'
+    
+    # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+    # use_frameworks!
+    
+    # Pods for guzzle
+    
 end

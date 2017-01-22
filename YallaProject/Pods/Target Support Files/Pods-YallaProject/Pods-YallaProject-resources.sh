@@ -79,6 +79,18 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/ISMessages/ISMessages.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/JTMaterialSwitch/JTMaterialSwitch.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/MMCollapsibleLabel/MMCollapsibleLabel.bundle"
+  install_resource "Vertigo/Vertigo/TGRImageViewController.xib"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/ISMessages/ISMessages.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/JTMaterialSwitch/JTMaterialSwitch.bundle"
+  install_resource "$PODS_CONFIGURATION_BUILD_DIR/MMCollapsibleLabel/MMCollapsibleLabel.bundle"
+  install_resource "Vertigo/Vertigo/TGRImageViewController.xib"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
